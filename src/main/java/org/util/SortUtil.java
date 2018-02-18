@@ -1,4 +1,4 @@
-package org.two.four;
+package org.util;
 
 /**
  * @author cheng

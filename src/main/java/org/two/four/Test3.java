@@ -1,5 +1,7 @@
 package org.two.four;
 
+import org.util.SortUtil;
+
 /**
  * 数据规模倍乘测试binarySearch
  * O(logn)
