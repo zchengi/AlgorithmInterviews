@@ -1,6 +1,8 @@
 package org.util;
 
 /**
+ * 工具类
+ *
  * @author cheng
  *         2018/1/27 15:54
  */
