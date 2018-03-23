@@ -23,6 +23,8 @@ public class Solution1 {
         TreeSet<Long> record = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {
 
+            // 这里判断 record 中是否存在一个数大于 nums[i] - t，
+            // 且这个值小于等于 nums[i] + t 的情况下返回 true
             if (record.ceiling((long) nums[i] - (long) t) != null &&
                     record.ceiling((long) nums[i] - (long) t) <= (long) nums[i] + (long) t) {
                 return true;
@@ -30,6 +32,7 @@ public class Solution1 {
 
             record.add((long) nums[i]);
 
+            // 规定 record 的最大范围为 k+1
             if (record.size() == k + 1) {
                 record.remove((long) nums[i - k]);
             }
