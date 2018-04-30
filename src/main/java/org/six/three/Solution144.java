@@ -65,6 +65,6 @@ public class Solution144 {
         treeNode.right = new TreeNode(2);
         treeNode.right.left = new TreeNode(3);
 
-        System.out.println(new org.six.two.Solution144().preorderTraversal(treeNode));
+        System.out.println(new Solution144().preorderTraversal(treeNode));
     }
 }
