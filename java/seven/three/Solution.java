@@ -11,7 +11,7 @@ import util.TreeNode;
  * @author cheng
  *         2018/7/27 22:58
  */
-public class Solution1 {
+public class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
 
         if (root == null) {
@@ -48,6 +48,6 @@ public class Solution1 {
 
         int sum = 22;
 
-        System.out.println(new Solution1().hasPathSum(root, sum));
+        System.out.println(new Solution().hasPathSum(root, sum));
     }
 }
