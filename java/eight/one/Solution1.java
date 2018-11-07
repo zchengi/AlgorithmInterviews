@@ -55,7 +55,7 @@ public class Solution1 {
             findCombinations(digits, index + 1, s + letters.charAt(i));
         }
 
-        System.out.println("digits[" + index + "]" + c + " complete, return");
+        System.out.println("digits[" + index + "] = " + c + " complete, return");
 
     }
 
